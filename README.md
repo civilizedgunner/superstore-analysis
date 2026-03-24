@@ -20,7 +20,7 @@ The dataset contains 9,994 order line records. Each row represents one product w
 - Furniture is the least profitable and most heavily discounted category
 
 ## Dashboard
-superstore.png
+![superstore dashboard] (https://github.com/civilizedgunner/superstore-analysis/blob/main/superstore.png?raw=true)
 
 
 ## Author
