@@ -23,6 +23,8 @@ The dataset contains 9,994 order line records. Each row represents one product w
 ![superstore](superstore.png)
 ![superstore](superstore2.png)
 
+## Mini Report
+The mini report for this project can be found here:
 
 ## Author
 Ndiokwere Michael
