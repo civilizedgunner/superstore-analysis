@@ -1,5 +1,8 @@
 # Superstore Data Analysis
 
+## Key Insight
+High discount levels (>30%) are the primary driver of loss making transactions, with the Furniture category being the most affected due to consistently higher discount application.
+
 ## Objective
 To identify key factors influencing profitability in a retail superstore dataset.
 
