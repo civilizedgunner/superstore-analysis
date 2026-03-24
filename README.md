@@ -21,7 +21,7 @@ The dataset contains 9,994 order line records. Each row represents one product w
 
 ## Dashboard
 ![superstore](superstore.png)
-
+![superstore](superstore2.png)
 
 
 ## Author
