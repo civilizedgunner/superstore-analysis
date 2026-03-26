@@ -7,7 +7,7 @@ High discount levels (>30%) are the primary driver of loss making transactions, 
 - This analysis attempts to identify key factors - such as shipping method, discounting, and product category - contributing most to profit erosion in a retail superstore dataset, with a view to generating insights that would lead to recommendations that improve profit efficiency. 
 
 ## Dataset Overview
-The dataset contains 9,994 order-line records. Each row represents one product within an order as the data grain. The significance is that anaylysis at the order level, as opposed to the order-line level, would require appropriate aggregation to collapse the grain such that one row would represent one order.
+The dataset contains 9,994 order-line records. Each row represents one product within an order as the data grain. The significance is that analysis at the order level, as opposed to the order-line level, would require appropriate aggregation to collapse the grain such that one row would represent one order.
 
 ## Tools Used
 - Excel
