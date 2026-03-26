@@ -4,8 +4,7 @@
 High discount levels (>30%) are the primary driver of loss making transactions, with the Furniture category being the most affected due to consistently higher discount application.
 
 ## Background and business Problem
-- To identify key factors influencing profitability in a retail superstore dataset.
-- This analysis attempts to explore which aspects of this business - such as shipping method, discounting, and product category - were contributing most to profit erosion, with a view to generating insights that would lead to recommendations that improve profit efficiency. 
+- This analysis attempts to identify key factors - such as shipping method, discounting, and product category - contributing most to profit erosion in a retail superstore dataset, with a view to generating insights that would lead to recommendations that improve profit efficiency. 
 
 ## Dataset Overview
 The dataset contains 9,994 order-line records. Each row represents one product within an order as the data grain. The significance is that anaylysis at the order level, as opposed to the order-line level, would require appropriate aggregation to collapse the grain such that one row would represent one order.
@@ -16,7 +15,7 @@ The dataset contains 9,994 order-line records. Each row represents one product w
 - Power BI
 
 ## Data Preparation
-The dataset used was obtained from kaggle, imported into excel and inspected structurally. The data was already clean(e.g devoid of duplicate rows or missing values in key variables), and the next step involved importing it to MySQL and conducting insightful queriies to extract insights.
+The dataset used was obtained from kaggle, imported into excel and inspected structurally. This included checks for duplicates and missing values in key variables. No significant data quality issues were identified. The next step involved importing it to MySQL and conducting queries to extract insights.
 
 ## Analytical approach
 The analysis followed a structured approach to identify drivers of profit erosion.
@@ -31,15 +30,19 @@ Finding 1 — Shipping
  Standard class shipping generates the highest total profit due to its significantly higher shipping volume. However, it records the lowest average profit per order compared to other shipping methods.
 
 Finding 2 — Discounts
-	All orders with discount levels of 0.45 and above recorded negative average profit, suggesting that high discount levels are strongly associated with loss-making sales.
+	ADiscount levels above approximately 30% are consistently associated with negative profitability, with losses becoming more more frequent and severe at higher discount levels.
 
 Finding 3 — Category Profitability
 Furniture receives the highest average discounts amongst all product categories. This category also records the lowest total profit and the lowest average profit per order line.
 
 
 ## Dashboard
-![superstore](superstore.png)
-![superstore](superstore2.png)
+
+### Business Overview
+![Overview](superstore.png)
+
+### Discount & Loss Analysis
+![Discount Analysis](superstore2.png)
 
 ## Recommendations
 Recommendation 1 - Shipping Efficiency Review
